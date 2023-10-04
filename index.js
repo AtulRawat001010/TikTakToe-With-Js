@@ -87,7 +87,7 @@ function checkGameOver() {
         current_player.innerText = `Game Tied`;
         new_gamebtn.classList.add("active");
     }
-}
+};
 
 
 function handleClick(index) {
@@ -99,7 +99,7 @@ function handleClick(index) {
         swapTurn();
         checkGameOver();
     }
-}
+};
 
 
 boxes.forEach((box, index) => {
@@ -111,4 +111,4 @@ boxes.forEach((box, index) => {
 
 new_gamebtn.addEventListener("click", () =>{
     init();
-})
+});
