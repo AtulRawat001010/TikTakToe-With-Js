@@ -31,7 +31,7 @@ function init() {
 
     new_gamebtn.classList.remove("active");
     current_player.innerText = `Current Player - ${currentPlayer}`;
-}
+};
 
 init();
 
@@ -45,7 +45,7 @@ function swapTurn(){
     }
 
     current_player.innerText = `Current Player - ${currentPlayer}`;
-}
+};
 
 function checkGameOver() {
     let ans = "";
