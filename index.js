@@ -50,7 +50,7 @@ function swapTurn(){
 function checkGameOver() {
     let ans = "";
 
-    winningPositions.forEach(position => {
+    winningPositions.forEach((position) => {
         if((gameGrid[position[0]] !== "" || gameGrid[position[1]] !== "" || gameGrid[position[2]] !== "") && (gameGrid[position[0]] === gameGrid[position[1]] && gameGrid[position[1]] === gameGrid[position[2]])){
             if(gameGrid[position[0]] === "X"){
                 ans = "X";
